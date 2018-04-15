@@ -16,3 +16,12 @@ npm run build
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+安装组件  npm update vue-toast-plugin-catbea --save
+安装完以后，在项目引用
+在入口中引入
+import Toast from 'vue-toast-plugin-catbea'
+
+Vue.use(Toast);
+
+在需要用到的组件中这样使用就ok啦
+<toast :toastMsg="toastMsg" :isSHowToast="isSHowToast"></toast>
