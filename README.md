@@ -27,4 +27,5 @@ import Toast from 'vue-toast-plugin-catbea'
 
 Vue.use(Toast);
 
-在需要用到的组件中这样使用就ok啦<toast :toastMsg="toastMsg" :isSHowToast="isSHowToast"></toast>
+在需要用到的组件中用 toast 并传如需要的参数就ok啦
+
